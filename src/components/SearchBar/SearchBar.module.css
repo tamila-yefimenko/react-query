@@ -1,5 +1,5 @@
 .header {
-  padding: 20px;
+  padding: 10px;
   background-color: #ffffff;
   border-bottom: 1px solid #e0e0e0;
   margin-bottom: 20px;
@@ -34,12 +34,31 @@
   flex-wrap: nowrap;
 }
 
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px 8px;
+  max-width: 366px;
+}
+
 .input {
   padding: 10px 12px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 240px;
+}
+
+.errorWrapper {
+  height: 20px;
+  padding: 0;
+}
+
+.error {
+  display: block;
+  padding: 0px 12px;
+  font-size: 10px;
+  color: red;
 }
 
 .button {
